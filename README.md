@@ -16,9 +16,9 @@ A critical friction point in online dating is mismatched intent. Matching users 
 
 ### The Approach
 This project moves beyond standard demographic filtering to build a **Multi-Modal Intent Framework**. Using a dataset of ~60,000 profiles, I developed a three-tiered analytical framework:
-1.  **Predictive Modeling (Gradient Boosting Classifiers):** Estimating baseline predictability of family intent using structured demographic and lifestyle data.
+1.  **Predictive Modeling (Gradient Boosting Classifiers):** Estimating baseline predictability of family planning using structured demographic and lifestyle data.
 2.  **Unsupervised NLP (LDA):** Extracting latent psychographic personas from open-ended user essays for user segmentation.
-3.  **Causal Inference (Propensity Score Matching):** Isolating the **causal impact** of these personas on family planning, independent of other key family planning drivers.
+3.  **Causal Inference (Propensity Score Matching):** Isolating the **causal impact** of these personas on family planning, independent of other key demographic drivers.
 
 ## Key Findings & Strategic Insights
 
