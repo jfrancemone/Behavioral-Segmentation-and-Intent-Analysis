@@ -1,4 +1,4 @@
-# 🤖 Intent Prediction & Algorithmic Alignment
+# 🧠 Intent Prediction & Algorithmic Alignment
 [![Topic](https://img.shields.io/badge/Topic-NLP_%26_Machine_Learning-blue)]()
 [![Method](https://img.shields.io/badge/Method-XGBoost_%7C_spaCy_%7C_Causal_Inference-green)]()
 [![Status](https://img.shields.io/badge/Status-Project_Complete-orange)]()
@@ -43,19 +43,19 @@ This repository separates data, model artifacts, and analysis logic.
 /Intent-Prediction-and-Algorithmic-Alignment
 │
 ├── /notebooks
-│   └── Intent_Prediction_and_Algorithmic_Alignment.ipynb          <-- Main analysis notebook
-|   └── Intent_Prediction_and_Algorithmic_Alignment.html
-|   └── lda_viz.png
+│   ├── Intent_Prediction_and_Algorithmic_Alignment.ipynb      <-- Main analysis notebook
+│   ├── Intent_Prediction_and_Algorithmic_Alignment.html
+│   └── lda_viz.png
 │
 ├── /models
-│   └── dictionary_frozen.gensim                                   <-- LDA model artifacts
-|   └── lda_model_frozen.gensim
-|   └── lda_model_frozen.gensim.expElogbeta.npy
-|   └── lda_model_frozen.gensim.id2word
-|   └── lda_model_frozen.gensim.state
+│   ├── dictionary_frozen.gensim                               <-- LDA model artifacts
+│   ├── lda_model_frozen.gensim
+│   ├── lda_model_frozen.gensim.expElogbeta.npy
+│   ├── lda_model_frozen.gensim.id2word
+│   └── lda_model_frozen.gensim.state
 │
 ├── /data
-│   └── (Excluded from repo for privacy)                            <-- Raw profile data
+│   └── (Excluded from repo for privacy)                       <-- Raw profile data
 │
-├── requirements.txt                                                <-- Dependencies for reproduction
-└── Francemone_Intent_Prediction_and_Algorithmic_Alignment.pdf      <-- Summary Slide Deck****
+├── requirements.txt                                           <-- Dependencies for reproduction
+└── Francemone_Intent_Prediction_and_Algorithmic_Alignment.pdf <-- Summary Slide Deck
