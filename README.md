@@ -37,6 +37,17 @@ Using **Propensity Score Matching (PSM)**, I separated causal drivers from corre
 
 ---
 
+### **Methodology**
+
+* **Data Source:** Anonymized profile essays and demographic flags from ~60,000 users (OkCupid open dataset).
+* **Modeling Strategy:**
+    * **Supervised Learning (XGBoost):** To predict binary intent labels ("Wants Kids" vs. "Does Not").
+    * **Unsupervised Learning (LDA):** To extract latent psychographic topics (Personas) from unstructured text.
+    * **Causal Inference (Propensity Score Matching):** To estimate the "lift" of specific personas on family planning intent, controlling for age and gender.
+* **Tools:** Python (pandas, scikit-learn, gensim, XGBoost).
+
+---
+
 ### **Repository Structure**
 This repository separates data, model artifacts, and analysis logic.
 
