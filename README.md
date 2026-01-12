@@ -43,7 +43,7 @@ Using **Propensity Score Matching (PSM)**, I separated causal drivers from corre
 * **Modeling Strategy:**
     * **Supervised Learning (XGBoost):** To predict binary intent labels ("Wants Kids" vs. "Does Not").
     * **Unsupervised Learning (LDA):** To extract latent psychographic topics (Personas) from unstructured text.
-    * **Causal Inference (Propensity Score Matching):** To estimate the "lift" of specific personas on family planning intent, controlling for age and gender.
+    * **Causal Inference (Propensity Score Matching):** To estimate the "lift" of specific personas on family planning intent, controlling for demographics.
 * **Tools:** Python (pandas, scikit-learn, gensim, XGBoost).
 
 ---
