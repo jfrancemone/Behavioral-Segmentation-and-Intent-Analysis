@@ -15,7 +15,7 @@ Using a dataset of ~60,000 profiles, I developed a three stage analytical framew
 ### **Key Findings & Strategic Insights**
 
 #### **1. Demographics Provide a Strong Baseline (79% Accuracy)**
-**Age**, **Sexuality**, and **Religion** are the primary gatekeepers of family planning. However, demographic models struggle to differentiate between **Lifestyle Choice** (child-free by choice) and **Life Stage** (not ready yet).
+* **Age**, **Sexuality**, and **Religion** are the primary gatekeepers of family planning. However, demographic models struggle to differentiate between **Lifestyle Choice** (child-free by choice) and **Life Stage** (not ready yet).
 
 #### **2. Language is a Behavior: 5 Distinct Personas**
 ![Topic Modeling Visualization](notebooks/lda_viz.png)
