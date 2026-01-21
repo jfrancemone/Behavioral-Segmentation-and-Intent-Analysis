@@ -86,7 +86,7 @@ To reproduce this analysis, you will need the packages listed in `requirements.t
 **Installation:**
 1.  Clone the repository:
     ```bash
-    git clone https://github.com/jfrancemone/Intent-Prediction-and-Algorithmic-Alignment-in-Online-Dating.git
+    git clone https://github.com/jfrancemone/User-Intent-Modeling-for-Recommendation-Systems.git
     ```
 2.  Install dependencies:
     ```bash
